@@ -1,0 +1,13 @@
+* {
+  box-sizing: border-box;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+.list1 {
+  display: flex;
+}
+a {
+  text-decoration: none;
+}

@@ -1,0 +1,35 @@
+div {
+  width: 200px;
+  padding: 20px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 25px;
+  background-color: #909;
+  color: #fff;
+  border-radius: 10px;
+  margin: 100px 0px;
+  position: relative;
+  animation: ani 5s linear 2 alternate;
+}
+@keyframes ani {
+  0% {
+    background-color: #909;
+    left: 0px;
+  }
+  25% {
+    background-color: #909;
+    left: 0px;
+  }
+  50% {
+    background-color: #909;
+    left: 0px;
+  }
+  75% {
+    background-color: #909;
+    left: 0px;
+  }
+  100% {
+    background-color: #909;
+    left: 0px;
+  }
+}

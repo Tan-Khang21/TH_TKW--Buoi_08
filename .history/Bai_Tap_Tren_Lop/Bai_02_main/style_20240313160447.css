@@ -1,0 +1,14 @@
+* {
+  box-sizing: border-box;
+}
+ul {
+  padding: 0;
+  list-style: none;
+}
+.list1 {
+  width: 150px;
+  height: 250px;
+}
+.list2 {
+  position: absolute;
+}

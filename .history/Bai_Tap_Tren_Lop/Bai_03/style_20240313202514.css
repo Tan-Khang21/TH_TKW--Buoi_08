@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+}
+nav {
+  display: flex;
+  justify-content: center;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+.list1 {
+  display: flex;
+  width: 90%;
+  background-color: #00f;
+  margin: 20px auto;
+  justify-content: space-between;
+}
+.list1_item {
+  border: 1px solid white;
+}
+a {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+}

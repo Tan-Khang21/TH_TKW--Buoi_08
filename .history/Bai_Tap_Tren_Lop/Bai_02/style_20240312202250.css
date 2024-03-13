@@ -1,0 +1,9 @@
+ul{
+    padding: 0;
+}
+.list1{
+    width: 150px;
+    height: 50%;
+    background-color: black;
+    color: white;
+}

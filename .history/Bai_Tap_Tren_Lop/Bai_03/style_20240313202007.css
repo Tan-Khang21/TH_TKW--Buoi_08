@@ -1,0 +1,18 @@
+* {
+  box-sizing: border-box;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+.list1 {
+  display: flex;
+  width: 90%;
+  background-color: #00f;
+}
+.list1_item {
+  margin: 20px auto;
+}
+a {
+  text-decoration: none;
+}

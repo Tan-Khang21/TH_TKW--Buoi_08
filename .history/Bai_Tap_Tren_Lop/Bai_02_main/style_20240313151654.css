@@ -1,0 +1,77 @@
+/* Thiết lập mặc định cho các menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav li {
+  position: relative;
+}
+
+nav a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+}
+
+/* Hiển thị menu cấp 2 khi di chuột qua */
+nav li:hover > ul {
+  display: block;
+}
+
+/* Ẩn các menu cấp 2 và cấp 3 mặc định */
+nav ul ul {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 100%;
+}
+
+/* Hiển thị menu cấp 3 bên dưới menu cấp 2 */
+nav ul ul ul {
+  top: 0;
+  left: 100%;
+}
+
+/* Thiết lập các mục cho menu cấp 1 */
+.list1_item {
+  display: inline-block;
+  position: relative;
+}
+
+/* Thiết lập các mục cho menu cấp 2 */
+.list2_item {
+  display: inline-block;
+  position: relative;
+}
+
+/* Thiết lập các mục cho menu cấp 3 */
+.list3_item {
+  display: inline-block;
+}
+
+/* Tùy chỉnh các menu cấp 2 và cấp 3 */
+nav ul ul a {
+  background-color: #f9f9f9;
+}
+
+nav ul ul ul a {
+  background-color: #e6e6e6;
+}
+/* Ẩn menu cấp 2 và cấp 3 mặc định */
+nav ul ul,
+nav ul ul ul {
+  display: none;
+}
+
+/* Hiển thị menu cấp 2 khi hover vào menu cấp 1 */
+nav li:hover > ul {
+  display: block;
+}
+
+/* Hiển thị menu cấp 1 và cấp 3 khi hover vào menu cấp 2 */
+nav ul ul li:hover > ul,
+nav ul ul li:hover > a {
+  display: block;
+}

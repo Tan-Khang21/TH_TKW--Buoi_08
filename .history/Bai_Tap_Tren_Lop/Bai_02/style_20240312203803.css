@@ -1,0 +1,17 @@
+ul {
+  padding: 0;
+}
+.list1_item {
+  width: 150px;
+  height: 50px;
+  background-color: black;
+  color: white;
+  border-bottom: 3px solid #fff;
+}
+.list2_item,
+.list3_item {
+  width: 150px;
+  height: 50px;
+  background-color: #808080;
+  color: white;
+}

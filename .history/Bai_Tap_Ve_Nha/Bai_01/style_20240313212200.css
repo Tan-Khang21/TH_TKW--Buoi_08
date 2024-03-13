@@ -1,0 +1,11 @@
+* {
+  box-sizing: border-box;
+}
+.container_box {
+  text-align: center;
+}
+.images {
+  width: 200px;
+  height: 200px;
+  text-align: center;
+}

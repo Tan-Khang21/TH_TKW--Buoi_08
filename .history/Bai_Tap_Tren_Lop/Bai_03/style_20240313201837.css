@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+.list1 {
+  display: flex;
+  width: 90%;
+}
+.list1_item {
+  width: 100px;
+}
+a {
+  text-decoration: none;
+}

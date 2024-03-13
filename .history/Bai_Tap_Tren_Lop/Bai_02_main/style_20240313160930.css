@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+ul {
+  padding: 0;
+  list-style: none;
+}
+/* .list1 {
+  width: 150px;
+  height: 250px;
+} */
+.list1_item {
+  background-color: black;
+  width: 150px;
+  height: 50px;
+  padding: 10px;
+  border-bottom: 3px solid #fff;
+  display: flex;
+  align-items: center;
+}
+.list2,
+.list3 {
+  width: 150px;
+  height: 50px;
+  background-color: #808080;
+  color: white;
+  border-bottom: 3px solid #fff;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+.list2 {
+  position: absolute;
+}

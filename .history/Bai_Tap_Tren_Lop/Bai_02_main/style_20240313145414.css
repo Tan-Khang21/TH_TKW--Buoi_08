@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+ul {
+  list-style: none;
+}
+.list2,
+.list3 {
+  display: flex;
+}
+.list1_item > a {
+  width: 150px;
+  height: 50px;
+  background-color: black;
+  color: white;
+  border-bottom: 3px solid #fff;
+  transition: 0.5s linear; /* Sửa đổi đơn vị thời gian */
+  display: inline-block;
+  text-decoration: none;
+}
+.list2_item > a,
+.list3_item > a {
+  width: 150px;
+  height: 50px;
+  background-color: #808080;
+  color: white;
+  transition: 0.5s linear; /* Sửa đổi đơn vị thời gian */
+  border-bottom: 3px solid #fff;
+  display: inline-block;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+}
